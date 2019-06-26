@@ -1,0 +1,168 @@
+body
+{
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  background-color: gray;
+  text-align: center;
+}
+
+h1
+{
+  text-shadow: 4px 4px 10px #656565;
+  font-style: Bold;
+  color: white;
+}
+
+h2
+{
+  color: white;
+  font: 20pt helvetica;
+}
+
+h3
+{
+  color: darkgray;
+  font: 15pt helvetica;
+  margin: 0;
+}
+
+#game
+{
+	display: flex;
+	flex-wrap: wrap;
+  width: 600px;
+  height: 600px;
+  border: 5px solid white;
+}
+
+.row
+{
+	display: flex;
+}
+
+.cell
+{
+  background-color: grey;
+  border: 1px solid darkgray;
+  box-sizing: border-box;
+}
+
+.but
+{
+  margin: 10px;
+  height: 40px;
+  width: 107px;
+  border-radius: 20px;
+  background-color: white;
+  border: none;
+  font: 12pt helvetica;
+  color: grey;
+  outline: none;
+  box-shadow: 4px 4px 10px #656565;
+}
+
+.but:hover
+{
+  background-color: #EEEEEE;
+}
+
+.but:active
+{
+  background-color: #DDDDDD;
+}
+
+.sz
+{
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: white;
+  border: none;
+  font: 12pt helvetica;
+  color: grey;
+  outline: none;
+  box-shadow: 4px 4px 10px #656565;
+}
+
+.sz:hover
+{
+  background-color: #EEEEEE;
+}
+
+.sz:active
+{
+  background-color: #DDDDDD;
+}
+
+.butplay
+{
+  margin: 10px;
+  height: 40px;
+  width: 107px;
+  border-radius: 20px;
+  background-color: #FFA64D;
+  border: none;
+  font: 12pt helvetica;
+  color: white;
+  outline: none;
+  box-shadow: 4px 4px 10px #656565;
+}
+
+.butplay:hover
+{
+  background-color: #EB9A49;
+}
+
+.butplay:active
+{
+  background-color: #D1802E;
+}
+
+.slider
+{
+  -webkit-appearance: none;
+  width: 360px;
+  height: 5px;
+  border-radius: 3px;
+  background: darkgray;
+  outline: none;
+}
+
+.slider::-webkit-slider-thumb
+{
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 4px 4px 10px #656565;
+}
+
+.slider::-webkit-slider-thumb:hover
+{
+  background-color: #EEEEEE;
+}
+
+.slider::-webkit-slider-thumb:active
+{
+  background-color: #DDDDDD;
+}
+
+#sizes
+{
+  float:left;
+  padding: 5px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#fld
+{
+  padding: 0 0 0 70px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin: 25px 0 10px 0;
+}
